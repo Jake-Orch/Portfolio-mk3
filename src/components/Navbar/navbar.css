@@ -1,0 +1,52 @@
+.nav_container {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav_container li {
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav_container li:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
+.nav_container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.hamburger-react {
+  display: none;
+}
+
+.active {
+  background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .nav_container ul {
+    display: none;
+  }
+
+  .hamburger-react {
+    display: inline-block;
+  }
+}
