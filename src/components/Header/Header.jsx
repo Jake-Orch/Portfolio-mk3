@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+import {Navbar, Sidebar} from "../"
 import './header.css';
 
 const Header = () => {
@@ -9,6 +9,7 @@ const Header = () => {
                 <h1 className="header_name">Jake Orchard</h1>
             </div>
             <Navbar />
+            <Sidebar/>
         </div>
     )
 }

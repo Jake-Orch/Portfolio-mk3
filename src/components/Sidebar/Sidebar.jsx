@@ -1,23 +1,21 @@
 import React from "react";
-import Hamburger from "hamburger-react";
 import { SidebarData } from "../../data";
+import CustomLink from "../../utils/CustomLink";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./sidebar.css"
 
 const Sidebar = () => {
   return (
-    <>
+    <ul className="nav_side">
       {SidebarData.map((item, index) => {
         return (
-          <li key={index}>
-            <Link to={item.path}>
-              {item.icon1}
+            <CustomLink key={index} to={item.path} className={item.cName}>
               <span>{item.title}</span>
-            </Link>
-          </li>
+              {item.icon1}
+            </CustomLink>
         );
       })}
-    </>
+    </ul>
   );
 };
 

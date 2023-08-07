@@ -8,27 +8,27 @@ export const SidebarData = [
         path: "/",
         icon1: <BiHomeAlt2 />,
         icon2: <BiSolidHomeAlt2 />,
-        op: "nav-text"
+        cName: "nav-text"
     },
     {
         title: "About",
         path: "/about",
         icon1: <BsPerson />,
         icon2: <BsFillPersonFill />,
-        op: "nav-text"
+        cName: "nav-text"
     },
     {
         title: "Projects",
         path: "/projects",
         icon1: <AiOutlineProject />,
         icon2: <AiFillProject />,
-        op: "nav-text"
+        cName: "nav-text"
     },
     {
         title: "Contact",
         path: "/contact",
         icon1: <AiOutlineMail />,
         icon2: <AiFillMail />,
-        op: "nav-text"
+        cName: "nav-text"
     }
 ]

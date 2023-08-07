@@ -1,0 +1,49 @@
+.nav_side {    display: inline-block;
+  position: absolute;
+  right: 0%;
+  top: 10%;
+}
+
+.nav_side li {
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style-type: none;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color: black;
+  font-family: var(--font);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.nav_side a {
+  color: black;
+}
+
+.nav_side span {
+  display: none;
+}
+
+#on {
+  display: inline-block;
+}
+
+#off {
+  display: none;
+}
+
+svg:hover + span {
+  display: inline-block;
+}
+
+
+@media only screen and (min-width: 700px) {
+  .nav_side {
+    display: none;
+  }
+
+  #on {
+    display: none;
+  }
+}
