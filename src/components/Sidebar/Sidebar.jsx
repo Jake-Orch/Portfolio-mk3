@@ -10,7 +10,6 @@ const Sidebar = () => {
       {SidebarData.map((item, index) => {
         return (
             <CustomLink key={index} to={item.path} className={item.cName}>
-              <span>{item.title}</span>
               {item.icon1}
             </CustomLink>
         );
