@@ -2,12 +2,11 @@
   align-self: center;
   display: flex;
   flex-direction: row;
+  padding-right: 2px;
 }
 
 .nav_container ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
+  display: none;
 }
 
 .nav_container li {
@@ -15,7 +14,7 @@
   padding: 5px 10px 5px 10px;
   margin: 5px;
   border-radius: 5px;
-  color: black;
+  color: white;
   font-family: var(--font);
   font-size: 15px;
   font-weight: 600;
@@ -23,8 +22,8 @@
 }
 
 .nav_container li:hover {
-    background-color: #dddddd;
-    cursor: pointer;
+  background-color: #dddddd50;
+  cursor: pointer;
 }
 
 .nav_container a {
@@ -33,24 +32,22 @@
 }
 
 .hamburger-react {
-  display: none;
+  display: inline-block;
+  color: white;
 }
 
 .active {
-  background-color: #eeeeee;
+  background-color: #eeeeee50;
 }
 
-@media only screen and (max-width: 700px) {
-
-  .nav_container {
-    padding-right: 2px;
-  }
-
+@media only screen and (min-width: 700px) {
   .nav_container ul {
-    display: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
   }
 
   .hamburger-react {
-    display: inline-block;
+    display: none;
   }
 }
