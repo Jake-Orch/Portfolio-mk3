@@ -31,11 +31,12 @@
 .nav_side svg {
   height: 30px;
   width: 30px;
+  color: white;
 }
 
 #on {
   transition-duration: 250ms;
-  transition-delay: 100ms;
+  transition-delay: 50ms;
 }
 
 #off {

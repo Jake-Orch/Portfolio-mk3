@@ -1,0 +1,52 @@
+.home_welcome {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: var(--page-half)
+}
+
+.home_welcome_main {
+    font-size: 40px;
+    width:fit-content
+}
+
+.home_welcome_main h2 {
+    font-weight: 600;
+}
+
+.home_welcome_main p {
+    font-size: 17px;
+}
+
+.home_welcome_name {
+    color:rgb(223, 0, 0);
+}
+
+.home_welcome_main svg {
+    height: 100%;
+    align-items: center;
+    color:rgb(223, 0, 0);
+}
+
+.home_welcome_name:hover {
+    cursor: pointer;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.home_welcome_main svg:hover {
+    cursor: pointer;
+    color: white;
+}
+
+@media only screen and (min-width: 900px) {
+
+    .home_welcome {
+        width: 50vw;
+        height: var(--page-height);
+        padding-bottom: 8vh;
+    }
+  }

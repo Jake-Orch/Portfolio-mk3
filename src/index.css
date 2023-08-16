@@ -1,14 +1,18 @@
 :root {
-    --font: 'Poppins', sans-serif;
+  --font: "Poppins", sans-serif;
+  --bg-color: #1f242c;
+  --header-height: 8vh;
+  --page-height: 92vh;
+  --page-half: 46vh;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 .App {
-    background-color: aliceblue;
+  background-color: var(--bg-color);
 }
