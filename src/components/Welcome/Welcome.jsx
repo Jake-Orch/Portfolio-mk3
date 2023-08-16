@@ -1,6 +1,7 @@
 import React from "react";
-import "./welcome.css";
+import CustomLink from "../../utils/CustomLink";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import "./welcome.css";
 
 const Welcome = () => {
   return (
