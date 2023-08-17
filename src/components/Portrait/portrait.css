@@ -1,0 +1,34 @@
+.home_portrait {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: var(--page-half);
+}
+
+.home_portrait_image {
+  height: 350px;
+  border-radius: 100px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 600px) {
+  .home_portrait_image {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .home_portrait {
+    width: 40vw;
+    height: var(--page-height);
+    padding-bottom: 8vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home_portrait_image {
+    height: 500px;
+  }
+}

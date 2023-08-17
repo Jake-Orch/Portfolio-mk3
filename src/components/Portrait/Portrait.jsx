@@ -1,8 +1,12 @@
 import React from "react";
+import Me from "../../assets/me.png"
+import "./portrait.css"
 
 const Portrait = () => {
     return (
-        <div className="home_portrait"></div>
+        <div className="home_portrait">
+            <img className="home_portrait_image" src={Me} alt="portrait"></img>
+        </div>
     )
 }
 
