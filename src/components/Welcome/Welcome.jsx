@@ -1,5 +1,4 @@
 import React from "react";
-import CustomLink from "../../utils/CustomLink";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import "./welcome.css";
 
