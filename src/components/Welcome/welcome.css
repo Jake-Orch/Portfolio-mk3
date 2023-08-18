@@ -22,13 +22,13 @@
 }
 
 .home_welcome_name {
-  color: rgb(223, 0, 0);
+  color: var(--color-one);
 }
 
 .home_welcome_main svg {
   height: 100%;
   align-items: center;
-  color: rgb(223, 0, 0);
+  color: var(--color-one);
 }
 
 .home_welcome_name:hover {
@@ -39,7 +39,7 @@
 
 .home_welcome_main svg:hover {
   cursor: pointer;
-  color: white;
+  color: var(--color-two);
 }
 
 @media only screen and (min-width: 600px) {
