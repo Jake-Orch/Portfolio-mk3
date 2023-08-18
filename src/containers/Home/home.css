@@ -1,6 +1,15 @@
 .home_container {
-    width: 100%;
-    height: var(--page-height);
-    font-family: var(--font);
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: var(--page-height);
+  font-family: var(--font);
+  color: var(--color-two);
+}
+
+@media only screen and (min-width: 900px) {
+  .home_container {
+    flex-direction: row;
+    padding: 0 100px 0 100px;
+  }
 }

@@ -14,10 +14,10 @@
   padding: 5px 10px 5px 10px;
   margin: 5px;
   border-radius: 5px;
-  color: white;
+  color: var(--color-two);
   font-family: var(--font);
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -36,8 +36,8 @@
   color: white;
 }
 
-.active {
-  background-color: #eeeeee50;
+.active a {
+ color: var(--color-one)
 }
 
 @media only screen and (min-width: 700px) {
@@ -53,6 +53,11 @@
 }
 
 @media only screen and (min-width: 900px) {
+
+  .nav_container ul {
+  padding-right: 40px;
+  }
+
   .nav_container li {
     margin: 5px 20px 5px 20px;
   }
