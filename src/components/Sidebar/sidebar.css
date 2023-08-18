@@ -47,7 +47,7 @@ svg:hover + span {
   display: inline-block;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 921px) {
   .nav_side {
     display: none;
   }

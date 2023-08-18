@@ -32,6 +32,9 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
+        <li className="nav_download">
+          Download Resume
+        </li>
       </ul>
     </div>
   );
