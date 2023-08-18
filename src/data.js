@@ -5,7 +5,7 @@ import {FiDownload} from "react-icons/fi"
 
 const cName = "nav-text";
 
-export const SidebarData = [
+export const sidebarData = [
     {
         title: "Home",
         path: "/Portfolio-mk3/",
@@ -41,3 +41,4 @@ export const SidebarData = [
         cName: cName
     }
 ]
+
