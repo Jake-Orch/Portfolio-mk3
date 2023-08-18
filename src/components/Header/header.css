@@ -18,3 +18,12 @@
   color: var(--color-one);
   text-transform: uppercase;
 }
+
+
+#active a {
+  color: var(--color-one);
+}
+
+#active svg {
+  color: var(--color-one) !important;
+}

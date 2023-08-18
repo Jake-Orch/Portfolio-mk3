@@ -1,21 +1,24 @@
 import {BiHomeAlt2, BiSolidHomeAlt2} from "react-icons/bi";
 import {BsPerson, BsFillPersonFill} from "react-icons/bs";
 import {AiOutlineProject, AiFillProject, AiOutlineMail, AiFillMail} from "react-icons/ai";
+import {FiDownload} from "react-icons/fi"
 
-export const SidebarData = [
+const cName = "nav-text";
+
+export const sidebarData = [
     {
         title: "Home",
         path: "/Portfolio-mk3/",
         icon1: <BiHomeAlt2 />,
         icon2: <BiSolidHomeAlt2 />,
-        cName: "nav-text"
+        cName: cName
     },
     {
         title: "About",
         path: "/Portfolio-mk3/about",
         icon1: <BsPerson />,
         icon2: <BsFillPersonFill />,
-        cName: "nav-text"
+        cName: cName
     },
     {
         title: "Projects",
@@ -29,6 +32,13 @@ export const SidebarData = [
         path: "/Portfolio-mk3/contact",
         icon1: <AiOutlineMail />,
         icon2: <AiFillMail />,
-        cName: "nav-text"
+        cName: cName
+    },
+    {
+        title: "Download",
+        path: "/Portfolio-mk3/", //Temporary
+        icon1: <FiDownload />,
+        cName: cName
     }
 ]
+
