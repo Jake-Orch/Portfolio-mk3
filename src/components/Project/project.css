@@ -1,0 +1,326 @@
+.project_container {
+  display: flex;
+  height: 100px;
+  width: 310px;
+  margin: 100px 0 70px 0;
+}
+
+.project_image {
+  position: relative;
+  display: grid;
+  align-self: center;
+  height: 100px;
+  width: 200px;
+  border-radius: 5px;
+  background: rgb(15, 186, 88);
+  background: linear-gradient(
+    135deg,
+    rgba(15, 186, 88, 1) 0%,
+    rgba(9, 121, 63, 1) 39%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.project_image img {
+  display: flex;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project_image img:hover {
+  opacity: 0%;
+}
+
+.project_image:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.margin_right {
+  margin-right: 10px;
+}
+
+.margin_left {
+  margin-left: 10px;
+}
+
+.project_border {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  width: 65%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.project_image_arrow {
+  place-self: center;
+  height: 20px;
+  width: 20px;
+  color: var(--color-two);
+}
+
+.project_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  color: var(--color-two);
+}
+
+.project_name {
+  font-size: 8px;
+  color: var(--color-one);
+  text-align: center;
+}
+
+.project_description {
+  height: 72px;
+  font-size: 7px;
+}
+
+.project_description p {
+  height: 70px;
+  width: 100px;
+  overflow: hidden;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.project_description p:first-of-type {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.project_tools {
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.project_tools p {
+  font-weight: 400;
+  font-size: 6px;
+  text-transform: uppercase;
+  padding: 0 5px 0 5px;
+}
+
+.project_links {
+  width: 100%;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project_links svg {
+  height: 10px;
+  width: 10px;
+  margin-left: 2px;
+}
+
+.project_link {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  font-size: 8px;
+  color: var(--color-one);
+}
+
+.project_arrow svg {
+  height: 15px;
+  width: 15px;
+}
+
+@media only screen and (min-width: 750px) {
+  .project_container {
+    height: 200px;
+    width: 700px;
+  }
+
+  .project_image,
+  .project_image img {
+    height: 200px;
+    width: 400px;
+  }
+
+  .margin_right {
+    margin-right: 40px;
+  }
+
+  .margin_left {
+    margin-left: 40px;
+  }
+
+  .project_image_arrow {
+    height: 45px;
+    width: 45px;
+  }
+
+  .project_info {
+    width: 260px;
+  }
+
+  .project_name {
+    font-size: 16px;
+  }
+
+  .project_description {
+    font-size: 12px;
+    height: 170px;
+  }
+
+  .project_description p {
+    height: min-content;
+    width: 100%;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  .project_tools p {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+  }
+
+  .project_tools p {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+  }
+
+  .project_links {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .project_links svg {
+    height: 28px;
+    width: 28px;
+    margin-left: 5px;
+  }
+
+  .project_link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    color: var(--color-one);
+  }
+
+  .project_link {
+    font-size: 15px;
+  }
+
+  .project_arrow svg {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .project_container {
+    height: 300px;
+    width: 1000px;
+    margin: 100px 0 70px 0;
+  }
+
+  .project_image,
+  .project_image img {
+    height: 300px;
+    width: 550px;
+  }
+
+  .margin_right {
+    margin-right: 40px;
+  }
+
+  .margin_left {
+    margin-left: 40px;
+  }
+
+  .project_image_arrow {
+    height: 45px;
+    width: 45px;
+  }
+
+  .project_info {
+    width: 400px;
+  }
+
+  .project_name {
+    font-size: 20px;
+    color: var(--color-one);
+  }
+
+  .project_description {
+    font-size: 15px;
+  }
+
+  .project_tools {
+    display: flex;
+  }
+
+  .project_tools p {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+  }
+
+  .project_tools p {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 5px 0 5px;
+  }
+
+  .project_links {
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+  }
+
+  .project_links svg {
+    height: 28px;
+    width: 28px;
+    margin-left: 5px;
+  }
+
+  .project_link {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    color: var(--color-one);
+  }
+
+  .project_link {
+    font-size: 15px;
+  }
+
+  .project_arrow svg {
+    height: 25px;
+    width: 25px;
+  }
+}
