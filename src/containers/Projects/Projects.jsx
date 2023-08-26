@@ -11,9 +11,10 @@ const Projects = () => {
         <h1>Click here to see what I am currently working on!</h1>
       </div> */}
       <div>
-        {projects.map((project) => (
+        {projects.map((project, index) => (    
           <Project
-            key={project.name}
+            key={index}
+            num={index}
             name={project.name}
             description={project.description}
             tools={project.tools}

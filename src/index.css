@@ -1,6 +1,8 @@
 :root {
   --font: "Poppins", sans-serif;
   --bg-color: #1f242c;
+  --bg-offwhite: #FAF9F6;
+  --bg-colortwo: #0e1114;
   --header-height: 8vh;
   --page-height: 92vh;
   --page-half: 46vh;

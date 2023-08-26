@@ -3,7 +3,17 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import "./project.css";
 
-const Project = ({ name, description, tools, img, alt, deployed, git }) => {
+const Project = ({
+  key,
+  num,
+  name,
+  description,
+  tools,
+  img,
+  alt,
+  deployed,
+  git,
+}) => {
   // handleGit forwards the viewer to my the GitHub repository of the given project being displayed
   const handleGit = () => {
     window.open(git);
@@ -14,11 +24,23 @@ const Project = ({ name, description, tools, img, alt, deployed, git }) => {
   const handleDeployed = () => {
     window.open(deployed);
   };
+
+  console.log(num % 2);
+
   return (
     <div className="project_container">
-      <div className="project_image">
-        <img src={img} alt={alt} onClick={handleDeployed}></img>
-      </div>
+      {num % 2 === 0 && (
+        <div className="project_image margin_right">
+          <img
+            src={img}
+            alt={alt}
+            onClick={handleDeployed}
+          ></img>
+          <div className="project_border">
+            <BsBoxArrowUpRight className="project_image_arrow" />
+          </div>
+        </div>
+      )}
       <div className="project_info">
         <div className="project_name">
           <h2>{name}</h2>
@@ -42,6 +64,19 @@ const Project = ({ name, description, tools, img, alt, deployed, git }) => {
           </div>
         </div>
       </div>
+      {num % 2 !== 0 && (
+        <div className="project_image margin_left">
+          <img
+            className="project_img"
+            src={img}
+            alt={alt}
+            onClick={handleDeployed}
+          ></img>
+          <div className="project_border">
+            <BsBoxArrowUpRight className="project_image_arrow" />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
