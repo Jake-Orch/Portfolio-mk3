@@ -5,13 +5,13 @@ import "./navbar.css";
 
 const Navbar = () => {
   const handleToggle = (toggle) => {
-    const frf = document.getElementsByClassName("nav_side");
+    const side = document.getElementsByClassName("nav_side");
     if (toggle) {
       console.log("open");
-      frf[0].id = "on";
+      side[0].id = "on";
     } else {
       console.log("close");
-      frf[0].id = "off";
+      side[0].id = "off";
 
     }
   };
