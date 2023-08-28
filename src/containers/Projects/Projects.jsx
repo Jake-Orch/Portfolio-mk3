@@ -1,16 +1,13 @@
 import React from "react";
 import "./projects.css";
-import { Project } from "../../components";
+import { Project, Title } from "../../components";
 import { projects } from "../../data";
 import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
     <div className="projects_container">
-      <div className="page_title">
-        <h1>Portfolio</h1>
-        <span>Portfolio</span>
-      </div>
+      <Title name={"Portfolio"} />
       <div className="projects_featured">
         <p>Newest project</p>
         <AiFillGithub />
