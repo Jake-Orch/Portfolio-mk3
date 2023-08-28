@@ -18,6 +18,13 @@
   color: var(--color-two);
 }
 
+@media only screen and (min-width: 650px) {
+
+  .about_box {
+    width: 600px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .about_container {
     height: var(--page-height);
