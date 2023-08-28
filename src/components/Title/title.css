@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 100px;
   padding-top: 25px;
+  margin-top: 50px;
   font-family: var(--font);
   color: var(--color-two);
 }

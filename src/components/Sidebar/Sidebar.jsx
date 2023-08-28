@@ -6,7 +6,7 @@ import "./sidebar.css"
 
 const Sidebar = () => {
   return (
-    <ul className="nav_side">
+    <ul className="nav_side" id="off">
       {sidebarData.map((item, index) => {
         return (
             <CustomLink key={index} to={item.path} className={item.cName}>
