@@ -1,5 +1,29 @@
 .projects_container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-family: var(--font);
+    color: var(--color-two);
+}
+
+.projects_featured {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: 10px 20px 0 0;
+    font-size: 17px;
+    font-weight: 200;
+    color: var(--color-three);
+    cursor: pointer;
+}
+
+.projects_featured:hover {
+    color: var(--color-two)
+}
+
+.projects_featured svg {
+    align-self: center;
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
 }
