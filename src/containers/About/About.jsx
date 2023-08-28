@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { Portrait, Title } from "../../components";
+import { Portrait, Info, Title } from "../../components";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <Title name={"About"} />
       <div className="about_box">
         <Portrait cl={"about_portrait"}/>
-        
+        <Info />
       </div>
     </div>
   );
