@@ -99,3 +99,10 @@ export const projects = [
     git: "https://github.com/Jake-Orch/Quiz", // Temporary
   },
 ];
+
+export const info = 
+{
+  tagline: "A passionate web developer",
+  desc: "I am a Junior Web Devloper and graduate of University of Birmingham's Full Stack Web Development bootcamp, dedicated to learning and developing myself. I am keen on learning all aspects of Web Devlopment and greatful for any opportunity to gain more knowledge in the field. I have a wide range of skills for Front-End development being HTML, CSS, JavaScript, React, Tailwind and Bootstrap. Also, for Back End my skills include JavaScript, Express.js, Node.js, mySQL, mongoDB. I work very well in teams, having great communication skills and a friendly and polite attitude, there is no better feeling of than when everyones work comes together to produce an outstanding project.",
+
+};

@@ -1,0 +1,20 @@
+.info_container {
+    align-self: flex-start;
+    padding: 10px;
+    margin: 20px;
+    border: 0px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-style: solid;
+    border-color: var(--bg-color);
+}
+
+.info_container h2{
+    color: var(--color-one);
+}
+
+@media only screen and (min-width: 1000px) {
+    .info_container {
+        padding: 0 20px 5px 0;
+    }
+  }

@@ -8,13 +8,13 @@
 }
 
 .header_name_container {
-  margin: 0 0 0 25px;
+  margin: 0 0 0 20px;
   align-self: center;
 }
 
 .header_name {
   font-family: var(--font);
-  font-weight: 200;
+  font-weight: 600;
   color: var(--color-one);
   text-transform: uppercase;
 }
@@ -26,4 +26,11 @@
 
 #active svg {
   color: var(--color-one) !important;
+}
+
+@media only screen and (min-width: 750px) {
+  
+.header_name_container {
+  margin: 0 0 0 40px;
+}
 }
