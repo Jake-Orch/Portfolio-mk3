@@ -86,6 +86,7 @@
 .project_description {
   height: 72px;
   font-size: 7px;
+  color: var(--color-three);
 }
 
 .project_description p {
@@ -241,7 +242,7 @@
   .project_container {
     height: 300px;
     width: 1000px;
-    margin: 100px 0 70px 0;
+    margin: 150px 0 70px 0;
   }
 
   .project_image,

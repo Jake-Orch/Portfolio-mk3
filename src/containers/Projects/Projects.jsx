@@ -1,17 +1,19 @@
 import React from "react";
 import "./projects.css";
-import { Project } from "../../components";
+import { Project, Title } from "../../components";
 import { projects } from "../../data";
+import { AiFillGithub } from "react-icons/ai";
 
 const Projects = () => {
   return (
     <div className="projects_container">
-      {/* <h1>Portfolio</h1> */}
-      {/* <div className="projects_featured">
-        <h1>Click here to see what I am currently working on!</h1>
-      </div> */}
+      <Title name={"Portfolio"} />
+      <div className="projects_featured">
+        <p>Newest project</p>
+        <AiFillGithub />
+      </div>
       <div>
-        {projects.map((project, index) => (    
+        {projects.map((project, index) => (
           <Project
             key={index}
             num={index}
