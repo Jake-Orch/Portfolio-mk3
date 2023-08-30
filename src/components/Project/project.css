@@ -12,13 +12,6 @@
   height: 100px;
   width: 200px;
   border-radius: 5px;
-  background: rgb(15, 186, 88);
-  background: linear-gradient(
-    135deg,
-    rgba(15, 186, 88, 1) 0%,
-    rgba(9, 121, 63, 1) 39%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
 
 .project_image img {
@@ -31,13 +24,11 @@
 }
 
 .project_image img:hover {
-  opacity: 0%;
+  opacity: 50%;
 }
 
-.project_image:hover {
-  border-width: 1px;
-  border-style: solid;
-  border-color: white;
+.project_image img:hover + .project_image_arrow {
+  z-index: 0;
 }
 
 .margin_right {
