@@ -37,7 +37,7 @@
 .projects_project_container {
     display: grid;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
 
 @media only screen and (min-width: 1100px) {

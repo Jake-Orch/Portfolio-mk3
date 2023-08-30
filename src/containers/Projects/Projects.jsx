@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="projects_container">
       <div className="projects_header">
-        <Title name={"Portfolio"} />
+        <Title name={"Projects"} />
         <div className="projects_featured">
           <p>Newest project</p>
           <AiFillGithub />
