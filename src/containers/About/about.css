@@ -11,28 +11,22 @@
   justify-content: center;
   flex-direction: column;
   height: min-content;
-  margin: 10px 10px 10px 10px;
+  margin: 50px 30px 20px 30px;
   border-radius: 10px;
   background-color: var(--bg-colortwo);
   font-family: var(--font);
   color: var(--color-two);
 }
 
-@media only screen and (min-width: 650px) {
-
-  .about_box {
-    width: 600px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
   .about_container {
     height: var(--page-height);
   }
-
   .about_box {
     flex-direction: row;
     justify-content: space-between;
-    width: 980px;
+    width: 1000px;
   }
 }
+
+
