@@ -36,9 +36,7 @@ const Project = ({
             alt={alt}
             onClick={handleDeployed}
           ></img>
-          <div className="project_border">
             <BsBoxArrowUpRight className="project_image_arrow" />
-          </div>
         </div>
       )}
       <div className="project_info">
@@ -72,9 +70,7 @@ const Project = ({
             alt={alt}
             onClick={handleDeployed}
           ></img>
-          <div className="project_border">
             <BsBoxArrowUpRight className="project_image_arrow" />
-          </div>
         </div>
       )}
     </div>
