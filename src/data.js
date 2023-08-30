@@ -2,6 +2,7 @@ import { BiHomeAlt2, BiSolidHomeAlt2 } from "react-icons/bi";
 import { BsPerson, BsFillPersonFill } from "react-icons/bs";
 import { AiOutlineProject, AiFillProject, AiOutlineMail, AiFillMail } from "react-icons/ai";
 import { FiDownload } from "react-icons/fi"
+import logos from "./assets/logos"
 import images from "./assets/projects";
 
 const cName = "nav-text";
@@ -100,9 +101,57 @@ export const projects = [
   },
 ];
 
-export const info = 
+export const info =
 {
   tagline: "A passionate web developer",
   desc: "I am a Junior Web Devloper and alumni of University of Birmingham's Full Stack Web Development bootcamp, dedicated to learning and developing myself. I am keen on learning all aspects of Web Devlopment and greatful for any opportunity to gain more knowledge in the field. I have a wide range of skills for Front-End development being HTML, CSS, JavaScript, React, Tailwind and Bootstrap. Also, for Back End my skills include JavaScript, Express.js, Node.js, mySQL, mongoDB. I work very well in teams, having great communication skills and a friendly and polite attitude, there is no better feeling of than when everyones work comes together to produce an outstanding project.",
 
 };
+
+export const icons = [
+  {
+    title: "HTML",
+    logo: logos.HTML5,
+    cl: "html"
+  },
+  {
+    title: "CSS",
+    logo: logos.CSS3,
+    cl: "css"
+  },
+  {
+    title: "JavaScript",
+    logo: logos.JAVASCRIPT,
+    cl: "javascript"
+  },
+  {
+    title: "Node.js",
+    logo: logos.NODEJS,
+    cl: "node"
+  },
+  {
+    title: "React.js",
+    logo: logos.REACT,
+    cl: "react"
+  },
+  {
+    title: "MongoDB",
+    logo: logos.MONGODB,
+    cl: "mongo"
+  },
+  {
+    title: "mySQL",
+    logo: logos.MYSQL,
+    cl: "mysql"
+  },
+  {
+    title: "Bootstrap",
+    logo: logos.BOOTSTRAP,
+    cl: "bootstrap"
+  },
+  {
+    title: "Tailwind",
+    logo: logos.TAILWIND,
+    cl: "tailwind"
+  },
+]
