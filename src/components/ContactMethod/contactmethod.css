@@ -1,15 +1,33 @@
 .contactm_container {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 60px;
+    width: 250px;
+    margin-top: 30px;
 }
-
-
 
 .contactm_icon {
-
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
 }
 
-
+.contactm_icon svg{
+    height: 25px;
+    width: 25px;
+    color: var(--color-one);
+}
 
 .contactm_body {
     
+}
+
+.contactm_body h3 {
+    margin-left: 2px;
+}
+
+.contactm_value {
+    color: var(--color-one);
+    font-weight: 200;
 }
