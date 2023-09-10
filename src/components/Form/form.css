@@ -1,0 +1,94 @@
+.form_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  height: 550px;
+  color: var(--color-one);
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 195px;
+  margin-top: 10px;
+}
+
+.form_section label{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+.form_fname {
+  margin-right: 10px;
+}
+
+.form_email,
+.form_message {
+  width: 400px;
+}
+
+.form_message {
+  height: 200px;
+}
+
+.form_section input,
+textarea {
+  height: 50px;
+  padding: 10px;
+  font-size: 17px;
+  border: 3px solid var(--color-two);
+  border-radius: 5px;
+  border-color: rgb(150, 150, 150);
+  background-color: rgb(232, 240, 254);
+  color: var(--bg-colortwo);
+}
+
+.form_section input:focus,
+textarea:focus {
+  border-color: rgb(216, 216, 216);
+  box-shadow: 0px 0px 4px 0px white;
+  outline: 0;
+}
+
+
+.form_message textarea {
+  height: 150px;
+}
+
+.form_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width:60px;
+}
+
+
+.form_button {
+  height: 30px;
+  width: 60px;
+  border: 1px solid var(--color-one);
+  border-radius: 5px;
+  background-color: var(--bg-colortwo);
+  color: var(--color-two);
+  cursor: pointer;
+}
+
+.form_button:hover {
+  box-shadow: 0px 0px 6px var(--color-one);
+}
+
+.form_button:focus {
+  height: 28px;
+  width: 57px;
+}
+
+@media only screen and (min-width: 600px) {
+  .form_container {
+    width: 400px;
+    height: 400px;
+  }
+}
