@@ -161,16 +161,19 @@ export const contactInfo = [
   {
     title: "Email",
     msg: "Contact me via my email",
-    icon: <AiFillMail />
+    icon: <AiFillMail />,
+    value: "jakeorchard@live.co.uk"
   },
   {
     title: "Phone Number",
     msg: "Contact me via phone",
-    icon: <BsPhoneFill />
+    icon: <BsPhoneFill />,
+    value: "+447-947-552-803"
   },
   {
     title: "Home Address",
     msg: "Here is my home address",
-    icon: <FaMapMarkedAlt />
+    icon: <FaMapMarkedAlt />,
+    value: "80 Church Street WS152AH"
   },
 ]
