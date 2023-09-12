@@ -162,7 +162,7 @@ export const contactInfo = [
     title: "Email",
     msg: "Contact me via my email",
     icon: <AiFillMail />,
-    value: "jakeorchard@live.co.uk"
+    value: "jakeorcharddev@gmail.com"
   },
   {
     title: "Mobile Number",
