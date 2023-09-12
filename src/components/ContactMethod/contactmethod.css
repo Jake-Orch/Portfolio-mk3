@@ -2,13 +2,16 @@
     display: flex;
     flex-direction: row;
     justify-content: start;
-    height: 60px;
+    height: 80px;
     width: 250px;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .contactm_icon {
-    height: 25px;
+    display: flex;
+    align-items: center;
+    height: 29px;
     width: 25px;
     margin-right: 10px;
 }
@@ -17,10 +20,6 @@
     height: 25px;
     width: 25px;
     color: var(--color-one);
-}
-
-.contactm_body {
-    
 }
 
 .contactm_body h3 {

@@ -165,7 +165,7 @@ export const contactInfo = [
     value: "jakeorchard@live.co.uk"
   },
   {
-    title: "Phone Number",
+    title: "Mobile Number",
     msg: "Contact me via phone",
     icon: <BsPhoneFill />,
     value: "+447-947-552-803"
@@ -174,6 +174,6 @@ export const contactInfo = [
     title: "Home Address",
     msg: "Here is my home address",
     icon: <FaMapMarkedAlt />,
-    value: "80 Church Street WS152AH"
+    value: "Rugeley, Staffordshire, UK"
   },
 ]
