@@ -26,7 +26,6 @@ const ContactMethod = ({ num, title, msg, icon, value }) => {
       <div className="contactm_icon">{icon}</div>
       <div className="contactm_body">
         <h3>{title}</h3>
-        <p>{msg}</p>
         <p className="contactm_value">{value}</p>
       </div>
     </div>
