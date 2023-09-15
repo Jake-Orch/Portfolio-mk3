@@ -25,12 +25,10 @@ const Project = ({
     window.open(deployed);
   };
 
-  console.log(num % 2);
-
   return (
     <div className="project_container">
       {num % 2 === 0 && (
-        <div className="project_image margin_right">
+        <div className="project_image margin_left">
           <img
             src={img}
             alt={alt}
@@ -63,7 +61,7 @@ const Project = ({
         </div>
       </div>
       {num % 2 !== 0 && (
-        <div className="project_image margin_left">
+        <div className="project_image margin_right">
           <img
             className="project_img"
             src={img}

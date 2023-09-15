@@ -35,8 +35,8 @@
 } */
 
 .projects_project_container {
-    display: grid;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
