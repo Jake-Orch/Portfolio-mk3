@@ -58,7 +58,7 @@ export const projects = [
   {
     name: "SafeKeeping",
     description: "SafeKeeping is School Management System where teachers can upload information on teachers, students, parents and classes. They can view the information uploaded on the webpage and update the database through the application",
-    tools: ["BootStrap", "JavaScript", "Handlebars.js", "mySQL"],
+    tools: ["BootStrap", "JavaScript", "Handlebars", "mySQL"],
     img: images.SafeKeeping,
     alt: "Safe Keeping Homepage",
     deployed: "https://safekeeping.herokuapp.com/",
