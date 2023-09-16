@@ -17,6 +17,7 @@
   background-color: var(--bg-colortwo);
   font-family: var(--font);
   color: var(--color-two);
+  box-shadow: var(--container-shadow);
 }
 
 .contact_methods {

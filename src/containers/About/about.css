@@ -16,6 +16,7 @@
   background-color: var(--bg-colortwo);
   font-family: var(--font);
   color: var(--color-two);
+  box-shadow: var(--container-shadow);
 }
 
 @media only screen and (min-width: 1100px) {

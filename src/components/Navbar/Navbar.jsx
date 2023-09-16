@@ -12,10 +12,9 @@ const Navbar = () => {
     } else {
       console.log("close");
       side[0].id = "off";
-
     }
   };
-
+  
   return (
     <div className="nav_container">
       <Hamburger onToggle={(toggle) => handleToggle(toggle)} />
@@ -32,9 +31,9 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
-        <li className="nav_download">
-          Download Resume
-        </li>
+        <a href="files/Resume.pdf" download="Jake Orchard's Resume.pdf">
+          <li className="nav_download">Download Resume</li>
+        </a>
       </ul>
     </div>
   );
