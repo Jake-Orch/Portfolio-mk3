@@ -43,7 +43,7 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
-        <a href="Resume.pdf" download="Resume.pdf">
+        <a href="files/Resume.pdf" download="Jake Orchard's Resume.pdf">
           <li className="nav_download">Download Resume</li>
         </a>
       </ul>
