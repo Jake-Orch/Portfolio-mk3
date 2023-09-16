@@ -25,8 +25,6 @@ const Project = ({
     window.open(deployed);
   };
 
-  console.log(num % 2);
-
   return (
     <div className="project_container">
       {num % 2 === 0 && (

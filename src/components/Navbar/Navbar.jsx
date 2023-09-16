@@ -12,9 +12,20 @@ const Navbar = () => {
     } else {
       console.log("close");
       side[0].id = "off";
-
     }
   };
+
+  // const resume = "http://localhost:3000/Portfolio-mk3/Resume.pdf";
+  // const downloadFile = (resume) => {
+  //   const fileName = resume.split("/").pop();
+  //   console.log(fileName);
+  //   const aTag = document.createElement("a");
+  //   aTag.href = fileName;
+  //   aTag.setAttribute("download", fileName);
+  //   document.body.appendChild(aTag);
+  //   aTag.click();
+  //   aTag.remove();
+  // };
 
   return (
     <div className="nav_container">
@@ -32,9 +43,9 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
-        <li className="nav_download">
-          Download Resume
-        </li>
+        <a href="files/Resume.pdf" download="Jake Orchard's Resume.pdf">
+          <li className="nav_download">Download Resume</li>
+        </a>
       </ul>
     </div>
   );
