@@ -1,7 +1,8 @@
 import { BiHomeAlt2, BiSolidHomeAlt2 } from "react-icons/bi";
-import { BsPerson, BsFillPersonFill } from "react-icons/bs";
+import { BsPerson, BsFillPersonFill, BsPhoneFill } from "react-icons/bs";
 import { AiOutlineProject, AiFillProject, AiOutlineMail, AiFillMail } from "react-icons/ai";
 import { FiDownload } from "react-icons/fi"
+import { FaMapMarkedAlt } from "react-icons/fa"
 import logos from "./assets/logos"
 import images from "./assets/projects";
 
@@ -135,5 +136,26 @@ export const icons = [
     title: "Tailwind",
     logo: logos.TAILWIND,
     cl: "tailwind"
+  },
+]
+
+export const contactInfo = [
+  {
+    title: "Email",
+    msg: "Contact me via my email",
+    icon: <AiFillMail />,
+    value: "jakeorcharddev@gmail.com"
+  },
+  {
+    title: "Mobile Number",
+    msg: "Contact me via phone",
+    icon: <BsPhoneFill />,
+    value: "+447-947-552-803"
+  },
+  {
+    title: "Home Address",
+    msg: "Here is my home address",
+    icon: <FaMapMarkedAlt />,
+    value: "Rugeley, Staffordshire, UK"
   },
 ]

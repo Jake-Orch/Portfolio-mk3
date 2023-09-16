@@ -6,28 +6,34 @@
   padding-top: 25px;
   margin-top: 50px;
   font-family: var(--font);
-  color: var(--color-two);
 }
 
 .page_title h1 {
   font-size: 40px;
+  color: var(--color-one);
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .page_title span {
   position: relative;
-  top: -70px;
+  top: -60px;
   font-size: 70px;
   font-weight: bold;
-  opacity: 25%;
+  text-transform: uppercase;
+  opacity: 30%;
+  color: var(--color-three);
+  z-index: 0;
 }
 
 @media only screen and (min-width: 750px) {
   .page_title {
     height: 130px;
   }
-  
+
   .page_title span {
     font-size: 100px;
+    top: -70px;
   }
 }
 
