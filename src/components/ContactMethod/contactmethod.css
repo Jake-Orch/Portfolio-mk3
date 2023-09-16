@@ -12,7 +12,7 @@
 }
 
 .contactm_container:hover {
-    box-shadow: 0px 0px 6px var(--color-one);
+    box-shadow: var(--button-shadow);
 }
 
 .contactm_icon {

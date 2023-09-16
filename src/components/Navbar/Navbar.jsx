@@ -14,19 +14,7 @@ const Navbar = () => {
       side[0].id = "off";
     }
   };
-
-  // const resume = "http://localhost:3000/Portfolio-mk3/Resume.pdf";
-  // const downloadFile = (resume) => {
-  //   const fileName = resume.split("/").pop();
-  //   console.log(fileName);
-  //   const aTag = document.createElement("a");
-  //   aTag.href = fileName;
-  //   aTag.setAttribute("download", fileName);
-  //   document.body.appendChild(aTag);
-  //   aTag.click();
-  //   aTag.remove();
-  // };
-
+  
   return (
     <div className="nav_container">
       <Hamburger onToggle={(toggle) => handleToggle(toggle)} />

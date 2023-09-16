@@ -8,8 +8,8 @@
   --color-one: #0fba58;
   --color-two: #fdfffc;
   --color-three: #bdbdbd;
-  --container-shadow:  0 0 25px var(--bg-colortwo);
-  --button-shadow:  0 0 5px var(--color-one);
+  --container-shadow:  0 0 10px black;
+  --button-shadow:  0 0 6px var(--color-one);
 }
 
 * {
