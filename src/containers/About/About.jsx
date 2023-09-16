@@ -5,7 +5,7 @@ import { Portrait, Info, Title } from "../../components";
 const About = () => {
   return (
     <div className="about_container">
-      <Title name={"About"} />
+      <Title name={"About Me"} />
       <div className="about_box">
         <Portrait cl={"about_portrait"}/>
         <Info />
