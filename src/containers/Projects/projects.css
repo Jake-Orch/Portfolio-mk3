@@ -12,7 +12,7 @@
   width: 80%;
 }
 
-.projects_project_container {
+.projects_body_container {
   display: flex;
   flex-direction: column;
   width: 100%;

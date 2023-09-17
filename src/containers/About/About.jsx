@@ -5,10 +5,15 @@ import { Portrait, Info, Title } from "../../components";
 const About = () => {
   return (
     <div className="about_container">
+      <div>
+        
+      </div>
       <Title name={"About Me"} />
-      <div className="about_box">
-        <Portrait cl={"about_portrait"}/>
-        <Info />
+      <div className="container">
+        <div className="about_box">
+          <Portrait cl={"about_portrait"} />
+          <Info />
+        </div>
       </div>
     </div>
   );

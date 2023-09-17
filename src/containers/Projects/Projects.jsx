@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects_header">
         <Title name={"Projects"} />
       </div>
-      <div className="container projects_project_container">
+      <div className="container projects_body_container">
         {projects.map((project, index) => (
           <Project
             key={index}
