@@ -1,13 +1,13 @@
 :root {
   --font: "Poppins", sans-serif;
-  --bg-color: #1f242c;
+  --bg-color: #ffffff;
   --bg-colortwo: #0e1114;
   --header-height: 8vh;
   --page-height: 100vh;
   --page-half: 46vh;
   --color-one: #0fba58;
   --color-two: #fdfffc;
-  --color-three: #bdbdbd;
+  --color-three: #8d8d8d;
   --container-shadow:  0 0 10px black;
   --button-shadow:  0 0 6px var(--color-one);
 }

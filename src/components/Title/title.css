@@ -9,7 +9,7 @@
 
 .page_title h1 {
   font-size: 30px;
-  color: var(--color-two);
+  color: var(--color-one);
   text-transform: uppercase;
   z-index: 1;
 }
