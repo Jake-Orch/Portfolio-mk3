@@ -1,0 +1,31 @@
+.about_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font);
+  color: var(--color-two);
+}
+
+.about_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: min-content;
+  margin-bottom: 70px;
+  border-radius: 5px;
+  background-color: var(--bg-colortwo);
+  font-family: var(--font);
+  color: var(--color-two);
+  box-shadow: var(--container-shadow);
+}
+
+@media only screen and (min-width: 1100px) {
+  .about_box {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+

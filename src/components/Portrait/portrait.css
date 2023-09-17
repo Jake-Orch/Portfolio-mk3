@@ -7,6 +7,11 @@
   height: var(--page-half);
 }
 
+.about_portrait {
+  justify-self: center;
+  height: min-content;
+}
+
 .home_portrait_image {
   height: 350px;
   border-radius: 100px;
@@ -16,6 +21,10 @@
 @media only screen and (min-width: 600px) {
   .home_portrait_image {
     height: 400px;
+  }
+
+  .about_portrait {
+    margin: 0 50px 0 50px;
   }
 }
 

@@ -10,18 +10,22 @@
 }
 
 .nav_container li {
+  display: flex;
   text-decoration: none;
-  padding: 5px 10px 5px 10px;
   margin: 5px;
-  border-radius: 5px;
-  color: white;
+  color: var(--color-two);
   font-family: var(--font);
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
-.nav_container li:hover {
+.nav_button {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.nav_button:hover {
   background-color: #dddddd50;
   cursor: pointer;
 }
@@ -29,6 +33,19 @@
 .nav_container a {
   color: inherit;
   text-decoration: none;
+  align-self: center;
+}
+
+.nav_download {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-one);
+  
+  cursor: pointer;
+}
+
+.nav_download:hover {
+  box-shadow: var(--button-shadow);
 }
 
 .hamburger-react {
@@ -36,11 +53,7 @@
   color: white;
 }
 
-.active {
-  background-color: #eeeeee50;
-}
-
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 921px) {
   .nav_container ul {
     list-style-type: none;
     display: flex;
@@ -49,5 +62,15 @@
 
   .hamburger-react {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav_container ul {
+    padding-right: 40px;
+  }
+
+  .nav_container li {
+    margin: 5px 20px 5px 20px;
   }
 }

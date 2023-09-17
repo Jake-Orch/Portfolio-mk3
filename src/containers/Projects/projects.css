@@ -1,0 +1,26 @@
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font);
+  color: var(--color-two);
+}
+
+.projects_header {
+  align-self: center;
+  width: 80%;
+}
+
+.projects_body_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media only screen and (min-width: 1100px) {
+  .projects_header {
+    align-self: center;
+    width: 1000px;
+  }
+}

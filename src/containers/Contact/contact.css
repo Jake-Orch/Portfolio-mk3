@@ -1,0 +1,42 @@
+.contact_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: min-content;
+}
+
+.contact_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: min-content;
+  padding: 50px;
+  border-radius: 5px;
+  background-color: var(--bg-colortwo);
+  font-family: var(--font);
+  color: var(--color-two);
+  box-shadow: var(--container-shadow);
+}
+
+.contact_methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact_container {
+    height: var(--page-height);
+  }
+
+  .contact_box {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact_methods {
+    padding: 0 0 45px 50px;
+  }
+}

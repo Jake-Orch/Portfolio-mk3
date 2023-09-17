@@ -4,9 +4,9 @@ import "./home.css";
 
 const Home = () => {
     return (
-        <div className="home_container">
+        <div className="container home_container">
             <Welcome />
-            <Portrait />
+            <Portrait cl={"home_portrait"} />
         </div>
     )
 };

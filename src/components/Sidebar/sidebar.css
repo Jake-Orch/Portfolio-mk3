@@ -2,7 +2,7 @@
   display: inline-block;
   position: absolute;
   right: 0%;
-  top: 15%;
+  top: 150%;
   height: max-content;
 }
 
@@ -47,7 +47,7 @@ svg:hover + span {
   display: inline-block;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 921px) {
   .nav_side {
     display: none;
   }

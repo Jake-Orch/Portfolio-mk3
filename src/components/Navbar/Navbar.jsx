@@ -2,20 +2,20 @@ import React from "react";
 import Hamburger from "hamburger-react";
 import CustomLink from "../../utils/CustomLink";
 import "./navbar.css";
+import Resume from "../../assets/Resume.pdf"
 
 const Navbar = () => {
   const handleToggle = (toggle) => {
-    const frf = document.getElementsByClassName("nav_side");
+    const side = document.getElementsByClassName("nav_side");
     if (toggle) {
       console.log("open");
-      frf[0].id = "on";
+      side[0].id = "on";
     } else {
       console.log("close");
-      frf[0].id = "off";
-
+      side[0].id = "off";
     }
   };
-
+  
   return (
     <div className="nav_container">
       <Hamburger onToggle={(toggle) => handleToggle(toggle)} />
@@ -32,6 +32,9 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
+        <a href={Resume} download="Jake Orchard's Resume.pdf">
+          <li className="nav_download">Download Resume</li>
+        </a>
       </ul>
     </div>
   );

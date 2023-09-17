@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className="home_welcome">
       <div className="home_welcome_main">
         <h2>
-          Hi, <br></br> I'm <a className="home_welcome_name">Jake</a> <br></br>
+          Hi,<br></br> I'm <a className="home_welcome_name">Jake</a> <br></br>
           Web Developer
         </h2>
         <p>
