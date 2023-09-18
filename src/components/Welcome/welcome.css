@@ -1,7 +1,7 @@
 .home_welcome {
   display: flex;
   flex-wrap: wrap;
-  align-content:end;
+  align-content: center;
   justify-content: center;
   height: 40vh;
 }
@@ -67,6 +67,7 @@
 
 @media only screen and (min-width: 1300px) {
   .home_welcome_main {
+    height: 400px;
     font-size: 45px;
   }
 
@@ -76,8 +77,8 @@
 }
 
 @media only screen and (min-width: 1600px) {
-
   .home_welcome_main {
+    height: 500px;
     font-size: 60px;
   }
   .home_welcome_main p {

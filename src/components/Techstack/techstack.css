@@ -76,9 +76,3 @@
     width: 35px;
   }
 }
-
-@media only screen and (min-width: 1600px) {
-    .info_stack {
-        margin-top: 80px;
-      }
-}
