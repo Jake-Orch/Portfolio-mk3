@@ -14,7 +14,9 @@ const Portrait = ({ cl }) => {
   }
   return (
     <div className={cl}>
+      <div className="home_portrait_container">
       <img className="home_portrait_image" src={Me} alt="portrait"></img>
+      </div>
       <div className="home_links">
         <AiFillGithub title="GitHub" onClick={handleMyGit}/>
         <AiFillLinkedin title="Linkedin" onClick={handleMyLinkedin}/>

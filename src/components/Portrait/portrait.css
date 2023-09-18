@@ -1,3 +1,9 @@
+.home_portrait_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .home_portrait {
   display: flex;
   flex-direction: column;
@@ -6,7 +12,8 @@
 }
 
 .home_portrait_image {
-  height: 250px;
+  height: 200px;
+  margin-bottom: 25px;
   border-radius: 100px;
 }
 
@@ -34,7 +41,8 @@
 
 @media only screen and (min-width: 600px) {
   .home_portrait_image {
-    height: 350px;
+    height: 300px;
+    margin-bottom: 40px;
   }
 
   .home_links {
@@ -67,7 +75,7 @@
 
 @media only screen and (min-width: 1600px) {
   .home_portrait_image {
-    height: 450px;
-    margin-bottom: 50px;
+    height: 440px;
+    margin-bottom: 60px;
   }
 }
