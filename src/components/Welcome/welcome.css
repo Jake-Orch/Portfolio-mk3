@@ -1,7 +1,7 @@
 .home_welcome {
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  align-content:end;
   justify-content: center;
   height: 40vh;
 }

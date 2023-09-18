@@ -1,5 +1,6 @@
 import React from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import Techstack from "../Techstack/Techstack";
 import "./welcome.css";
 
 const Welcome = () => {
@@ -20,6 +21,7 @@ const Welcome = () => {
           </a>
         </p>
       </div>
+      <Techstack />
     </div>
   );
 };
