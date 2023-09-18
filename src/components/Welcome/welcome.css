@@ -3,12 +3,11 @@
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-  width: 100vw;
-  height: var(--page-half);
+  height: 40vh;
 }
 
 .home_welcome_main {
-  font-size: 30px;
+  font-size: 20px;
   width: fit-content;
 }
 
@@ -43,35 +42,46 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .home_welcome {
+    height: min-content;
+  }
   .home_welcome_main {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
 @media only screen and (min-width: 900px) {
   .home_welcome {
-    width: 60vw;
-    height: var(--page-height);
-    padding-bottom: 8vh;
+    justify-content: start;
+    width: 100%;
+  }
+
+  .home_welcome_main {
+    font-size: 40px;
+  }
+
+  .home_welcome_main p {
+    font-size: 17px;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
+  .home_welcome_main {
+    height: 400px;
+    font-size: 45px;
+  }
 
-    .home_welcome_main {
-        font-size: 50px;
-    }
-    
-    .home_welcome_main p {
-        font-size: 17px;
-      }
+  .home_welcome_main p {
+    font-size: 17px;
+  }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1600px) {
   .home_welcome_main {
+    height: 500px;
     font-size: 60px;
   }
   .home_welcome_main p {
-      font-size: 20px;
-    }
+    font-size: 20px;
+  }
 }

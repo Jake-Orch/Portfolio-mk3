@@ -6,6 +6,7 @@ export {default as Navbar} from "./Navbar/Navbar";
 export {default as Portrait} from "./Portrait/Portrait";
 export {default as Project} from "./Project/Project"
 export {default as Sidebar} from "./Sidebar/Sidebar";
+export {default as Techstack} from "./Techstack/Techstack";
 export {default as Title} from "./Title/Title";
 export {default as Welcome} from "./Welcome/Welcome";
 
