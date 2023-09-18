@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  width: 100%;
+  padding: 6vh 10% 0 10%;
 }
 .home_body {
   display: flex;
@@ -12,9 +14,16 @@
   color: var(--color-two);
 }
 
+@media only screen and (min-width: 750px) {
+  .home_container {
+  padding: 6vh 15% 0 15%;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .home_body {
     margin-top: 10px;
     flex-direction: row;
   }
 }
+
