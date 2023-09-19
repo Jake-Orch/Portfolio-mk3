@@ -11,7 +11,6 @@ const About = () => {
       <Title name={"About Me"} />
       <div className="container">
         <div className="about_box">
-          <Portrait cl={"about_portrait"} />
           <Info />
         </div>
       </div>
