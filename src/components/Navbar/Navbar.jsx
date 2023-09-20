@@ -2,6 +2,7 @@ import React from "react";
 import Hamburger from "hamburger-react";
 import CustomLink from "../../utils/CustomLink";
 import "./navbar.css";
+import Resume from "../../assets/Resume.pdf"
 
 const Navbar = () => {
   const handleToggle = (toggle) => {
@@ -31,7 +32,7 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
-        <a href="files/Resume.pdf" download="Jake Orchard's Resume.pdf">
+        <a href={Resume} download="Jake Orchard's Resume.pdf">
           <li className="nav_download">Download Resume</li>
         </a>
       </ul>

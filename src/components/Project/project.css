@@ -4,7 +4,7 @@
   justify-content: space-between;
   height: min-content;
   flex: 1 0 310px;
-  margin: 80px 20px 20px 20px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
   border-radius: 5px;
   background-color: var(--bg-colortwo);
@@ -55,7 +55,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   margin-top: 5px;
   color: var(--color-two);
 }
@@ -130,16 +129,16 @@
   width: 15px;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 900px) {
   .project_container {
     flex-direction: row;
     padding: 0 50px 0 50px;
-    margin: 100px 50px 70px 50px;
+    margin-bottom: 70px;
   }
   
   .project_image {
     padding-top: 25%;
-    width: 100%;
+    flex: 1 0 200px;
   }
 
   .project_image img {
@@ -163,6 +162,7 @@
   .project_info {
     display: flex;
     justify-content: center;
+    flex: 2 0 200px;
     order: 1;
     margin: 0;
   }
@@ -176,12 +176,10 @@
   }
 
   .project_tools {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 600;
-    font-size: 16px;
-  }
-
-  .project_links {
-    padding-top: 20px;
+    font-size: 14px;
   }
 
   .project_links svg {
@@ -204,7 +202,11 @@
 @media only screen and (min-width: 1100px) {
   .project_container {
     padding: 40px 50px 40px 50px;
-    margin: 100px 150px 70px 150px;
+  }
+
+  .project_image {
+    padding-top: 25%;
+    flex: 2 0 200px;
   }
 
   .project_image_arrow {
@@ -220,14 +222,15 @@
   .project_description {
     font-size: 15px;
   }
+
+  .project_tools {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
-  .project_container {
-    margin: 100px 400px 70px 400px;
+  .project_tools {
+    font-size: 18px;
   }
 
-  .project_description {
-    height: 200px;
-  }
 }

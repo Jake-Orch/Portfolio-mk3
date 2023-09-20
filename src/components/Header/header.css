@@ -3,7 +3,7 @@
   justify-content: space-between;
   position: fixed;
   z-index: 2;
-  height: var(--header-height);
+  height: 6vh;
   width: 100%;
   padding: 10px;
   background-color: var(--bg-colortwo);
@@ -18,6 +18,7 @@
 .header_name {
   font-family: var(--font);
   font-weight: 600;
+  font-size: 20px;
   color: var(--color-one);
   text-transform: uppercase;
 }
@@ -28,7 +29,7 @@
 }
 
 #active svg {
-  color: var(--color-one) !important;
+  color: var(--color-one);
 }
 
 @media only screen and (min-width: 750px) {
@@ -36,4 +37,9 @@
 .header_name_container {
   margin: 0 0 0 40px;
 }
+
+.header_name {
+  font-size: 25px;
+}
+
 }
