@@ -11,7 +11,7 @@
   justify-content: space-around;
   flex-direction: column;
   height: min-content;
-  padding: 50px;
+  padding: 20px;
   border-radius: 5px;
   background-color: var(--bg-colortwo);
   font-family: var(--font);
@@ -26,14 +26,20 @@
   justify-content: space-around;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 450px) {
+  .contact_box {
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
   .contact_container {
     height: var(--page-height);
   }
 
   .contact_box {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .contact_methods {
