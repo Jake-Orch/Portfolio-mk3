@@ -2,6 +2,7 @@ export {default as ContactMethod} from "./ContactMethod/ContactMethod";
 export {default as Form} from "./Form/Form";
 export {default as Header} from "./Header/Header";
 export {default as Info} from "./Info/Info";
+export {default as Links} from "./Links/Links";
 export {default as Navbar} from "./Navbar/Navbar";
 export {default as Portrait} from "./Portrait/Portrait";
 export {default as Project} from "./Project/Project"
