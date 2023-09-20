@@ -33,7 +33,7 @@
 
   .contact_box {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .contact_methods {

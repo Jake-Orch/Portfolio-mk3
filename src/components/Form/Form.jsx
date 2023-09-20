@@ -53,7 +53,7 @@ const Form = () => {
           onChange={(e) => setFname(e.target.value)}
         ></input>
       </div>
-      <div className="form_section">
+      <div className="form_section form_lname">
         <label htmlFor="lname">Last Name</label>
         <input
           type="text"

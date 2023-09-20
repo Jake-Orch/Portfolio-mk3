@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div className="contact_container">
       <Title name={"Contact"} />
-      <div className="container contact_body">
+      <div className="container">
         <div className="contact_box">
           <div className="contact_form">
             <Form />

@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   width: 250px;
-  height: 550px;
+  height: min-content;
   color: var(--color-one);
 }
 
@@ -11,22 +11,25 @@
   flex-direction: column;
   height: 70px;
   width: 195px;
-  margin-top: 10px;
 }
 
 .form_section label{
-  margin-left: 3px;
-  font-weight: 600;
+  margin: 3px 0 3px 3px;
+  font-weight: 400;
   font-size: 18px;
 }
-
 
 .form_fname {
   margin-right: 10px;
 }
 
+.form_lname {
+  margin-top: 10px;
+}
+
 .form_email,
 .form_message {
+  margin-top: 10px;
   width: 400px;
 }
 
@@ -36,7 +39,7 @@
 
 .form_section input,
 textarea {
-  height: 50px;
+  height: 45px;
   padding: 10px;
   font-family: var(--font);
   font-size: 17px;
@@ -90,6 +93,11 @@ textarea:focus {
 @media only screen and (min-width: 600px) {
   .form_container {
     width: 400px;
-    height: 400px;
+    height: 100%;
   }
+
+  
+.form_lname {
+  margin-top: 0;
+}
 }
