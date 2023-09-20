@@ -21,7 +21,7 @@
   display: flex;
   justify-content: space-around;
   height: 40px;
-  width: 100px;
+  width: 200px;
   margin-top: 25px;
 }
 
@@ -77,5 +77,10 @@
   .home_portrait_image {
     height: 440px;
     margin-bottom: 60px;
+  }
+
+  .home_links svg {
+    height: 35px;
+    width: 35px;
   }
 }
