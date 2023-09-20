@@ -10,7 +10,7 @@ const Info = () => {
         <img className="info_img" src={Stockdesk} alt="stock desk"></img>
       </div>
       <div className="info_desc">
-        <h2>{info.tagline}</h2>
+        <h2>I'm Jake Orchard, <br></br> Front & Back End Web Developer</h2>
         <p>{info.desc}</p>
       </div>
     </div>

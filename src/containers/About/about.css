@@ -21,4 +21,8 @@
   box-shadow: var(--container-shadow);
 }
 
+@media only screen and (min-width: 1400px){
+  .about_container {
+  }
+}
 
