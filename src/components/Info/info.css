@@ -1,20 +1,123 @@
 .info_container {
-    align-self: flex-start;
-    padding: 10px;
-    margin: 20px;
-    border: 0px;
-    border-top: 5px;
-    border-bottom: 5px;
-    border-style: solid;
-    border-color: var(--bg-color);
+  align-self: flex-start;
+  padding: 10px;
+  margin: 20px;
 }
 
-.info_container h2{
-    color: var(--color-one);
+.info_img_container, .info_img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 
-@media only screen and (min-width: 1000px) {
-    .info_container {
-        padding: 0 20px 5px 0;
-    }
+.info_desc {
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  padding: 8px 0 10px 0;
+  margin-top: 10px;
+  color: var(--color-three);
+  border: 0px;
+  border-top: 5px;
+  border-bottom: 5px;
+  border-style: solid;
+  border-color: var(--bg-color);
+}
+
+.info_desc h2 {
+  font-weight: 600;
+  color: var(--color-one);
+}
+
+.info_desc p {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 450px) {
+  .info_desc h2 {
+    font-size: 30px;
   }
+}
+
+@media only screen and (min-width: 600px) {
+  .info_desc h2 {
+    font-size: 38px;
+  }
+  .info_desc p {
+    font-size: 15px;
+    padding: 15px 0 15px 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .info_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info_img_container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+
+  .info_img {
+    position: relative;
+    right: 40%;
+    height: 100%;
+    width: 200%;
+  }
+
+  .info_desc {
+    padding: 10px 0 15px 0;
+    width: 48%;
+    margin: 0;
+  }
+
+  .info_desc p {
+    padding-bottom: 0;
+    border: 0;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .info_img_container {
+    flex: none;
+    width: 40%;
+  }
+
+  .info_img {
+    position: relative;
+    right: 40%;
+    height: 100%;
+    width: 200%;
+  }
+
+  .info_desc {
+    width: 100%;
+    margin: 0;
+  }
+
+  .info_desc h2 {
+    font-size: 45px;
+  }
+
+  .info_desc p {
+    padding-bottom: 0;
+    border: 0;
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .info_img_container {
+    flex: none;
+    width: 30%;
+  }
+
+}

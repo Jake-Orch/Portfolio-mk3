@@ -12,9 +12,7 @@
 .nav_container li {
   display: flex;
   text-decoration: none;
-  padding: 5px 10px 5px 10px;
   margin: 5px;
-  border-radius: 5px;
   color: var(--color-two);
   font-family: var(--font);
   font-size: 17px;
@@ -22,7 +20,12 @@
   text-transform: uppercase;
 }
 
-.nav_container li:hover {
+.nav_button {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.nav_button:hover {
   background-color: #dddddd50;
   cursor: pointer;
 }
@@ -34,14 +37,15 @@
 }
 
 .nav_download {
-  border-width: 1px;
-  border-color: var(--color-one);
-  border-style: solid;
-  border-collapse: separate;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-one);
+  
+  cursor: pointer;
 }
 
 .nav_download:hover {
-  box-shadow: 0px 0px 6px var(--color-one);
+  box-shadow: var(--button-shadow);
 }
 
 .hamburger-react {

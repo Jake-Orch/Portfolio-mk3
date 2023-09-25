@@ -7,12 +7,10 @@ import { AiFillGithub } from "react-icons/ai";
 const Projects = () => {
   return (
     <div className="projects_container">
-      <Title name={"Portfolio"} />
-      <div className="projects_featured">
-        <p>Newest project</p>
-        <AiFillGithub />
+      <div className="projects_header">
+        <Title name={"Projects"} />
       </div>
-      <div>
+      <div className="container projects_body_container">
         {projects.map((project, index) => (
           <Project
             key={index}

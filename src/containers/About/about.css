@@ -1,8 +1,10 @@
 .about_container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: min-content;
+  font-family: var(--font);
+  color: var(--color-two);
 }
 
 .about_box {
@@ -11,21 +13,16 @@
   justify-content: center;
   flex-direction: column;
   height: min-content;
-  margin: 10px 10px 10px 10px;
-  border-radius: 10px;
+  margin-bottom: 70px;
+  border-radius: 5px;
   background-color: var(--bg-colortwo);
   font-family: var(--font);
   color: var(--color-two);
+  box-shadow: var(--container-shadow);
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px){
   .about_container {
-    height: var(--page-height);
-  }
-
-  .about_box {
-    flex-direction: row;
-    justify-content: space-between;
-    width: 980px;
   }
 }
+

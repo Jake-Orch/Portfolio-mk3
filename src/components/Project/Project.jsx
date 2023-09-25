@@ -25,8 +25,6 @@ const Project = ({
     window.open(deployed);
   };
 
-  console.log(num % 2);
-
   return (
     <div className="project_container">
       {num % 2 === 0 && (
@@ -36,9 +34,7 @@ const Project = ({
             alt={alt}
             onClick={handleDeployed}
           ></img>
-          <div className="project_border">
             <BsBoxArrowUpRight className="project_image_arrow" />
-          </div>
         </div>
       )}
       <div className="project_info">
@@ -72,9 +68,7 @@ const Project = ({
             alt={alt}
             onClick={handleDeployed}
           ></img>
-          <div className="project_border">
             <BsBoxArrowUpRight className="project_image_arrow" />
-          </div>
         </div>
       )}
     </div>

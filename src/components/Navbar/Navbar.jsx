@@ -2,6 +2,7 @@ import React from "react";
 import Hamburger from "hamburger-react";
 import CustomLink from "../../utils/CustomLink";
 import "./navbar.css";
+import Resume from "../../assets/Resume.pdf"
 
 const Navbar = () => {
   const handleToggle = (toggle) => {
@@ -14,19 +15,7 @@ const Navbar = () => {
       side[0].id = "off";
     }
   };
-
-  // const resume = "http://localhost:3000/Portfolio-mk3/Resume.pdf";
-  // const downloadFile = (resume) => {
-  //   const fileName = resume.split("/").pop();
-  //   console.log(fileName);
-  //   const aTag = document.createElement("a");
-  //   aTag.href = fileName;
-  //   aTag.setAttribute("download", fileName);
-  //   document.body.appendChild(aTag);
-  //   aTag.click();
-  //   aTag.remove();
-  // };
-
+  
   return (
     <div className="nav_container">
       <Hamburger onToggle={(toggle) => handleToggle(toggle)} />
@@ -43,7 +32,7 @@ const Navbar = () => {
         <CustomLink to="/Portfolio-mk3/contact" className="nav_button">
           Contact
         </CustomLink>
-        <a href="Resume.pdf" download="Resume.pdf">
+        <a href={Resume} download="Jake Orchard's Resume.pdf">
           <li className="nav_download">Download Resume</li>
         </a>
       </ul>
