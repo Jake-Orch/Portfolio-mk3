@@ -30,7 +30,7 @@
 .form_email,
 .form_message {
   margin-top: 10px;
-  width: 400px;
+  width: 250px;
 }
 
 .form_message {
@@ -100,5 +100,11 @@ textarea:focus {
 
   .form_lname {
     margin-top: 0;
+  }
+
+  .form_email,
+  .form_message {
+    margin-top: 10px;
+    width: 400px;
   }
 }
