@@ -22,21 +22,20 @@
 @media only screen and (min-width: 1300px) {
   .contact_links {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    height: 440px;
     width: min-content;
     margin: 0;
+    order: initial;
   }
 }
 
 @media only screen and (min-width: 1500px) {
   .contact_links {
-    flex-direction: row;
+    display: flex;
     align-items: end;
     width: 100%;
-    padding: 0 0 50px 45px;
   }
+
   .contact_links svg {
     height: 40px;
     width: 40px;
