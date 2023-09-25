@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   height: min-content;
+  padding-bottom: 70px;
 }
 
 .contact_box {

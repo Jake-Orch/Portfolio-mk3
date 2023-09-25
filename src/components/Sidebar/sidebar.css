@@ -34,6 +34,10 @@
   color: white;
 }
 
+.nav_side_download svg{
+  color: var(--color-one);
+}
+
 #on {
   transition-duration: 250ms;
   transition-delay: 50ms;

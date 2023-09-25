@@ -28,7 +28,7 @@ export const sidebarData = [
     path: "/Portfolio-mk3/projects",
     icon1: <AiOutlineProject />,
     icon2: <AiFillProject />,
-    cName: "nav-text"
+    cName: cName
   },
   {
     title: "Contact",
@@ -39,9 +39,9 @@ export const sidebarData = [
   },
   {
     title: "Download",
-    path: "/Portfolio-mk3/", //Temporary
+    path: "/Portfolio-mk3/",
     icon1: <FiDownload />,
-    cName: cName
+    cName: cName + " nav_side_download"
   }
 ];
 
