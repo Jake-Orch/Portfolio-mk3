@@ -7,9 +7,10 @@ const Techstack = () => {
     <div className="info_stack">
       <h3>Tech Stack</h3>
       <div className="info_icons">
-        {icons.map((icon) => (
+        {icons.map((icon, index) => (
           <img
             id={"info_" + icon.cl}
+            key={index}
             src={icon.logo}
             title={icon.title}
             alt={icon.title}

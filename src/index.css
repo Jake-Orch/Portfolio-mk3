@@ -6,8 +6,8 @@
   --color-one: #0fba58;
   --color-two: #fdfffc;
   --color-three: #bdbdbd;
-  --container-shadow:  0 0 10px black;
-  --button-shadow:  0 0 6px var(--color-one);
+  --container-shadow: 0 0 10px black;
+  --button-shadow: 0 0 6px var(--color-one);
 }
 
 * {
@@ -28,6 +28,6 @@
 
 @media only screen and (min-width: 750px) {
   .container {
-  padding: 7% 15% 0 15%;
+    padding: 7% 15% 0 15%;
   }
 }
