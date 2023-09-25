@@ -1,4 +1,5 @@
 export {default as ContactMethod} from "./ContactMethod/ContactMethod";
+export {default as Departure} from "./Departure/Departure";
 export {default as Form} from "./Form/Form";
 export {default as Header} from "./Header/Header";
 export {default as Info} from "./Info/Info";

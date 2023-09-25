@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import { Title, Form, ContactMethod, Links } from "../../components";
+import { Title, Form, ContactMethod, Links, Departure } from "../../components";
 import { contactInfo } from "../../data";
 
 const Contact = () => {
@@ -9,10 +9,14 @@ const Contact = () => {
       <Title name={"Contact"} />
       <div className="container">
         <div className="contact_box">
+          <Departure cl="departure_container departure_small" />
           <div className="contact_form">
             <Form />
           </div>
-          <Links cl="contact_links"/>
+          <div className="contact_links_dep">
+            <Departure cl="departure_container"/>
+            <Links cl="contact_links" />
+          </div>
           <div className="contact_methods">
             {contactInfo.map((info, index) => (
               <ContactMethod
@@ -25,6 +29,7 @@ const Contact = () => {
               />
             ))}
           </div>
+          <Links cl="contact_links links_small" />
         </div>
       </div>
     </div>
