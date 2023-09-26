@@ -16,8 +16,8 @@ const Sidebar = () => {
           );
         }
         return (
-          <li key={index} className={item.cName}>
-            <a href={Resume} download="Jake Orchard's Resume.pdf">{item.icon1}</a>
+          <li key={index}>
+            <a className={item.cName} href={Resume} download="Jake Orchard's Resume.pdf">{item.icon1}</a>
           </li>
         );
       })}
