@@ -26,8 +26,8 @@
 }
 
 .home_links svg {
-  height: 28px;
-  width: 28px;
+  height: 40px;
+  width: 40px;
   padding: 5px;
   border: 1px solid var(--color-one);
   border-radius: 5px;
@@ -46,13 +46,9 @@
   }
 
   .home_links {
-    height: 30px;
+    height: 40px;
   }
 
-  .home_links svg {
-    height: 30px;
-    width: 30px;
-  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -69,7 +65,7 @@
   }
 
   .home_links {
-    width: 200px;
+    width: 300px;
   }
 }
 
