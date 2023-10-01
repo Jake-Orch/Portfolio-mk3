@@ -9,7 +9,7 @@ Welcome to my portfolio, this application consists of 4 pages, Home, About, Proj
 ## Usage  
 To use the application, either install it using the instructions above or simply visit the deployed link below  
 
-Deployed Link:
+Deployed Link: https://jake-orch.github.io/Portfolio-mk3/
 ## Questions  
 If you have any questions about this application, contact me via either my email address or my GitHub account.  
 My email address: jakeorchard@live.co.uk  
